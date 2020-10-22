@@ -1,0 +1,6 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\constructorPractice\constructorPractice\bin\Debug\constructorPractice.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\constructorPractice\constructorPractice\bin\Debug\constructorPractice.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\constructorPractice\constructorPractice\bin\Debug\constructorPractice.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\constructorPractice\constructorPractice\obj\Debug\constructorPractice.csprojResolveAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\constructorPractice\constructorPractice\obj\Debug\constructorPractice.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\constructorPractice\constructorPractice\obj\Debug\constructorPractice.pdb
