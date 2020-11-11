@@ -1,0 +1,6 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q02_annonymousObj\Q02_annonymousObj\bin\Debug\Q02_annonymousObj.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q02_annonymousObj\Q02_annonymousObj\bin\Debug\Q02_annonymousObj.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q02_annonymousObj\Q02_annonymousObj\bin\Debug\Q02_annonymousObj.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q02_annonymousObj\Q02_annonymousObj\obj\Debug\Q02_annonymousObj.csprojResolveAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q02_annonymousObj\Q02_annonymousObj\obj\Debug\Q02_annonymousObj.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q02_annonymousObj\Q02_annonymousObj\obj\Debug\Q02_annonymousObj.pdb

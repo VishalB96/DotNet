@@ -1,0 +1,6 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\deligate\del1\del1\bin\Debug\del1.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\deligate\del1\del1\obj\Debug\del1.csprojResolveAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\deligate\del1\del1\bin\Debug\del1.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\deligate\del1\del1\bin\Debug\del1.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\deligate\del1\del1\obj\Debug\del1.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\deligate\del1\del1\obj\Debug\del1.pdb

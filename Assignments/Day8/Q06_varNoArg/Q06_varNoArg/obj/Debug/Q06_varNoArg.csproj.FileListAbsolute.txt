@@ -1,0 +1,5 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q06_varNoArg\Q06_varNoArg\bin\Debug\Q06_varNoArg.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q06_varNoArg\Q06_varNoArg\bin\Debug\Q06_varNoArg.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q06_varNoArg\Q06_varNoArg\bin\Debug\Q06_varNoArg.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q06_varNoArg\Q06_varNoArg\obj\Debug\Q06_varNoArg.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q06_varNoArg\Q06_varNoArg\obj\Debug\Q06_varNoArg.pdb

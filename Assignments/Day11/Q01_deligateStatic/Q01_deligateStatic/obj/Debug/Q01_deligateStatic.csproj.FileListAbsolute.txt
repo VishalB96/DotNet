@@ -1,0 +1,6 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day11\Q01_deligateStatic\Q01_deligateStatic\bin\Debug\Q01_deligateStatic.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day11\Q01_deligateStatic\Q01_deligateStatic\obj\Debug\Q01_deligateStatic.csprojResolveAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day11\Q01_deligateStatic\Q01_deligateStatic\bin\Debug\Q01_deligateStatic.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day11\Q01_deligateStatic\Q01_deligateStatic\bin\Debug\Q01_deligateStatic.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day11\Q01_deligateStatic\Q01_deligateStatic\obj\Debug\Q01_deligateStatic.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day11\Q01_deligateStatic\Q01_deligateStatic\obj\Debug\Q01_deligateStatic.pdb

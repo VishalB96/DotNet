@@ -1,0 +1,6 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Interface\Interface\bin\Debug\Interface.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Interface\Interface\bin\Debug\Interface.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Interface\Interface\bin\Debug\Interface.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Interface\Interface\obj\Debug\Interface.csprojResolveAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Interface\Interface\obj\Debug\Interface.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Interface\Interface\obj\Debug\Interface.pdb

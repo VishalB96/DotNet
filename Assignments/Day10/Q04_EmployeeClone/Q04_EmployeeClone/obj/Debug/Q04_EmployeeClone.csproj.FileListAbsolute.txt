@@ -1,0 +1,6 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q04_EmployeeClone\Q04_EmployeeClone\bin\Debug\Q04_EmployeeClone.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q04_EmployeeClone\Q04_EmployeeClone\bin\Debug\Q04_EmployeeClone.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q04_EmployeeClone\Q04_EmployeeClone\bin\Debug\Q04_EmployeeClone.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q04_EmployeeClone\Q04_EmployeeClone\obj\Debug\Q04_EmployeeClone.csprojResolveAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q04_EmployeeClone\Q04_EmployeeClone\obj\Debug\Q04_EmployeeClone.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q04_EmployeeClone\Q04_EmployeeClone\obj\Debug\Q04_EmployeeClone.pdb

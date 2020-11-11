@@ -1,0 +1,5 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\day9\Q02_person\Q02_person\bin\Debug\Q02_person.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\day9\Q02_person\Q02_person\bin\Debug\Q02_person.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\day9\Q02_person\Q02_person\bin\Debug\Q02_person.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\day9\Q02_person\Q02_person\obj\Debug\Q02_person.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\day9\Q02_person\Q02_person\obj\Debug\Q02_person.pdb

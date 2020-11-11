@@ -36,6 +36,7 @@ namespace Q03_outKeyword
             int[] arr2 = new outDemo().sqrArray(arr, out sum);
             Console.Write("\nSum of all elements : {0}\nSquare of elements of array : ",sum);
             display(arr2);
+            
         }
     }
 }

@@ -1,0 +1,5 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q03_AnnonymousObj\Q03_AnnonymousObj\bin\Debug\Q03_AnnonymousObj.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q03_AnnonymousObj\Q03_AnnonymousObj\bin\Debug\Q03_AnnonymousObj.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q03_AnnonymousObj\Q03_AnnonymousObj\bin\Debug\Q03_AnnonymousObj.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q03_AnnonymousObj\Q03_AnnonymousObj\obj\Debug\Q03_AnnonymousObj.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q03_AnnonymousObj\Q03_AnnonymousObj\obj\Debug\Q03_AnnonymousObj.pdb

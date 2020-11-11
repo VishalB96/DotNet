@@ -1,0 +1,6 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q05_Tax\Q05_Tax\bin\Debug\Q05_Tax.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q05_Tax\Q05_Tax\obj\Debug\Q05_Tax.csprojResolveAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q05_Tax\Q05_Tax\bin\Debug\Q05_Tax.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q05_Tax\Q05_Tax\bin\Debug\Q05_Tax.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q05_Tax\Q05_Tax\obj\Debug\Q05_Tax.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day10\Q05_Tax\Q05_Tax\obj\Debug\Q05_Tax.pdb

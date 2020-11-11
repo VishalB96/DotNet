@@ -1,0 +1,5 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q05_inheritance_polymophism\Q05_inheritance_polymophism\bin\Debug\Q05_inheritance_polymophism.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q05_inheritance_polymophism\Q05_inheritance_polymophism\bin\Debug\Q05_inheritance_polymophism.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q05_inheritance_polymophism\Q05_inheritance_polymophism\bin\Debug\Q05_inheritance_polymophism.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q05_inheritance_polymophism\Q05_inheritance_polymophism\obj\Debug\Q05_inheritance_polymophism.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q05_inheritance_polymophism\Q05_inheritance_polymophism\obj\Debug\Q05_inheritance_polymophism.pdb

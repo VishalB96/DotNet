@@ -1,0 +1,6 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q04_swapDemo\Q04_swapDemo\bin\Debug\Q04_swapDemo.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q04_swapDemo\Q04_swapDemo\bin\Debug\Q04_swapDemo.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q04_swapDemo\Q04_swapDemo\bin\Debug\Q04_swapDemo.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q04_swapDemo\Q04_swapDemo\obj\Debug\Q04_swapDemo.csprojResolveAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q04_swapDemo\Q04_swapDemo\obj\Debug\Q04_swapDemo.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Assignments\Day8\Q04_swapDemo\Q04_swapDemo\obj\Debug\Q04_swapDemo.pdb
