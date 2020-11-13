@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model_emp.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="Model_empStoreContainer">
+    <EntitySet Name="DeptDemoes" EntityType="Model_emp.Store.DeptDemoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="EmpDemoes" EntityType="Model_emp.Store.EmpDemoes" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="DeptDemoEmpDemo" Association="Model_emp.Store.DeptDemoEmpDemo">
+      <End Role="DeptDemo" EntitySet="DeptDemoes" />
+      <End Role="EmpDemo" EntitySet="EmpDemoes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="DeptDemoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="EmpDemoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Salary" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Position" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="DeptDemoId" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="DeptDemoEmpDemo">
+    <End Role="DeptDemo" Type="Model_emp.Store.DeptDemoes" Multiplicity="1" />
+    <End Role="EmpDemo" Type="Model_emp.Store.EmpDemoes" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DeptDemo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="EmpDemo">
+        <PropertyRef Name="DeptDemoId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

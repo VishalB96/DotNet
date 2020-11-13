@@ -1,0 +1,10 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\model2classandDb\model2classandDb\bin\Debug\model2classandDb.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\model2classandDb\model2classandDb\bin\Debug\model2classandDb.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\model2classandDb\model2classandDb\bin\Debug\model2classandDb.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\model2classandDb\model2classandDb\bin\Debug\EntityFramework.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\model2classandDb\model2classandDb\bin\Debug\EntityFramework.xml
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\model2classandDb\model2classandDb\obj\Debug\model2classandDb.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\model2classandDb\model2classandDb\obj\Debug\model2classandDb.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\model2classandDb\model2classandDb\obj\Debug\model2classandDb.csprojAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\model2classandDb\model2classandDb\obj\Debug\model2classandDb.csproj.CoreCompileInputs.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\model2classandDb\model2classandDb\obj\Debug\model2classandDb.csproj.CopyComplete

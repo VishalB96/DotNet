@@ -1,0 +1,10 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\EntitySchema2Class\bin\Debug\EntitySchema2Class.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\EntitySchema2Class\bin\Debug\EntitySchema2Class.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\EntitySchema2Class\bin\Debug\EntitySchema2Class.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\EntitySchema2Class\bin\Debug\EntityFramework.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\EntitySchema2Class\bin\Debug\EntityFramework.SqlServer.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\EntitySchema2Class\bin\Debug\EntityFramework.xml
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\EntitySchema2Class\bin\Debug\EntityFramework.SqlServer.xml
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\EntitySchema2Class\obj\Debug\EntitySchema2Class.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\EntitySchema2Class\obj\Debug\EntitySchema2Class.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\EntityFramework\EntitySchema2Class\obj\Debug\EntitySchema2Class.csprojResolveAssemblyReference.cache
