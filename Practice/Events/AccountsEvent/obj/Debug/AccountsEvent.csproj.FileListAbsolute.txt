@@ -1,0 +1,7 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Events\AccountsEvent\bin\Debug\AccountsEvent.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Events\AccountsEvent\bin\Debug\AccountsEvent.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Events\AccountsEvent\bin\Debug\AccountsEvent.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Events\AccountsEvent\obj\Debug\AccountsEvent.csprojAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Events\AccountsEvent\obj\Debug\AccountsEvent.csproj.CoreCompileInputs.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Events\AccountsEvent\obj\Debug\AccountsEvent.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Events\AccountsEvent\obj\Debug\AccountsEvent.pdb

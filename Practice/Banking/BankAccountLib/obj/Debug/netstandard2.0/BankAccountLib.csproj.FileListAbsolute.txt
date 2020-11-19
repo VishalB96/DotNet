@@ -1,0 +1,9 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Banking\BankAccountLib\bin\Debug\netstandard2.0\BankAccountLib.deps.json
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Banking\BankAccountLib\bin\Debug\netstandard2.0\BankAccountLib.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Banking\BankAccountLib\bin\Debug\netstandard2.0\BankAccountLib.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Banking\BankAccountLib\obj\Debug\netstandard2.0\BankAccountLib.csprojAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Banking\BankAccountLib\obj\Debug\netstandard2.0\BankAccountLib.AssemblyInfoInputs.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Banking\BankAccountLib\obj\Debug\netstandard2.0\BankAccountLib.AssemblyInfo.cs
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Banking\BankAccountLib\obj\Debug\netstandard2.0\BankAccountLib.csproj.CoreCompileInputs.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Banking\BankAccountLib\obj\Debug\netstandard2.0\BankAccountLib.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\Banking\BankAccountLib\obj\Debug\netstandard2.0\BankAccountLib.pdb

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "BizD0EawMFgG8BkPU/F/v+FCZM0h6C/0532x6KCMp7Yk25VSTptchD7p+pY6+y5tT+3oKM1Cg244IGT5d0SClQ==",
+  "success": true,
+  "projectFilePath": "E:\\VITA CDAC OOP\\ASP_DotNet\\GitRepo\\DotNet\\Practice\\Banking\\BankAccountLib\\BankAccountLib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Vishal\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Vishal\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

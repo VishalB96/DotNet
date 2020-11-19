@@ -18,6 +18,54 @@ namespace adoPractice {
         }
 
     }
+
+    public class Employee
+    {
+        
+        public int Id { get; set; }
+        
+        public string Name { get; set; }
+        
+        public string Gender { get; set; }
+       
+        public string City { get; set; }
+
+        public override string ToString()
+        {
+            return String.Format("{0} {1} {2} {3}", Id, Name, Gender, City);
+        }
+
+        public List<Employee> Employees
+        {
+            get
+            {
+                string connectionString = ConfigurationManager.ConnectionStrings["ProductCat"].ConnectionString;
+
+                List<Employee> employees = new List<Employee>();
+
+                using (SqlConnection con = new SqlConnection(connectionString))
+                {
+                    SqlCommand cmd = new SqlCommand("select * from Emp", con);
+
+                    con.Open();
+
+                    SqlDataReader rdr = cmd.ExecuteReader();
+                    while (rdr.Read())
+                    {
+                        Employee employee = new Employee();
+                        employee.Id = Convert.ToInt32(rdr["Id"]);
+                        employee.Name = rdr["Name"].ToString();
+                        employee.Gender = rdr["Gender"].ToString();
+                        employee.City = rdr["City"].ToString();
+
+                        employees.Add(employee);
+                    }
+                }
+
+                return employees;
+            }
+        }
+    }
     public class ProductLayer {
         string connectionString = ConfigurationManager.ConnectionStrings["ProductCat"].ConnectionString;
        
@@ -170,9 +218,18 @@ namespace adoPractice {
             p1.DipsProductsUsingCommand();
             Console.WriteLine("display using List : ");
             p1.DispProductsUsingList(p1.ProductsList);
-            p1.InsertNewRecord();
-            p1.UpdateRecord();
-            p1.DeleteRecord();
+           // p1.InsertNewRecord();
+           // p1.UpdateRecord();
+          //  p1.DeleteRecord();
+            Console.WriteLine();
+            Console.WriteLine();
+
+            Employee e1 = new Employee();
+            List<Employee> ee = e1.Employees;
+
+            foreach (var ea in ee) {
+                Console.WriteLine(ea);
+            }
         }
         
     }
