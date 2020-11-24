@@ -1,0 +1,8 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloServiceHost\bin\Debug\HelloServiceHost.exe.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloServiceHost\bin\Debug\HelloServiceHost.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloServiceHost\bin\Debug\HelloServiceHost.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloServiceHost\bin\Debug\HelloService.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloServiceHost\bin\Debug\HelloService.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloServiceHost\obj\Debug\HelloServiceHost.csprojResolveAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloServiceHost\obj\Debug\HelloServiceHost.exe
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloServiceHost\obj\Debug\HelloServiceHost.pdb

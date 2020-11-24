@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStudentLoginStoreContainer" CdmEntityContainer="ModelStudentLoginContainer">
+    <EntitySetMapping Name="StudentDemoes">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelStudentLogin.StudentDemo)">
+        <MappingFragment StoreEntitySet="StudentDemoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="City" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentLogins">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelStudentLogin.StudentLogin)">
+        <MappingFragment StoreEntitySet="StudentLogins">
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="StudentLoginStudentDemo" TypeName="ModelStudentLogin.StudentLoginStudentDemo" StoreEntitySet="StudentLogins">
+      <EndProperty Name="StudentDemo">
+        <ScalarProperty Name="Id" ColumnName="StudentDemo_Id" />
+      </EndProperty>
+      <EndProperty Name="StudentLogin">
+        <ScalarProperty Name="Username" ColumnName="Username" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>

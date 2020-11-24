@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ModelStudentLogin.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelStudentLoginStoreContainer">
+    <EntitySet Name="StudentDemoes" EntityType="ModelStudentLogin.Store.StudentDemoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StudentLogins" EntityType="ModelStudentLogin.Store.StudentLogins" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="StudentLoginStudentDemo" Association="ModelStudentLogin.Store.StudentLoginStudentDemo">
+      <End Role="StudentLogin" EntitySet="StudentLogins" />
+      <End Role="StudentDemo" EntitySet="StudentDemoes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="StudentDemoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Age" Type="smallint" Nullable="false" />
+    <Property Name="City" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudentLogins">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="StudentDemo_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="StudentLoginStudentDemo">
+    <End Role="StudentLogin" Type="ModelStudentLogin.Store.StudentLogins" Multiplicity="*" />
+    <End Role="StudentDemo" Type="ModelStudentLogin.Store.StudentDemoes" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="StudentDemo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentLogin">
+        <PropertyRef Name="StudentDemo_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

@@ -1,0 +1,7 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestPost1\PostService\bin\PostService.dll.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestPost1\PostService\bin\PostService.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestPost1\PostService\bin\PostService.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestPost1\PostService\obj\Debug\PostService.csprojAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestPost1\PostService\obj\Debug\PostService.csproj.CoreCompileInputs.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestPost1\PostService\obj\Debug\PostService.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestPost1\PostService\obj\Debug\PostService.pdb

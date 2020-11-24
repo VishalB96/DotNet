@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelStudentLogin" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="ModelStudentLoginContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="StudentDemoes" EntityType="ModelStudentLogin.StudentDemo" />
+    <EntitySet Name="StudentLogins" EntityType="ModelStudentLogin.StudentLogin" />
+    <AssociationSet Name="StudentLoginStudentDemo" Association="ModelStudentLogin.StudentLoginStudentDemo">
+      <End Role="StudentLogin" EntitySet="StudentLogins" />
+      <End Role="StudentDemo" EntitySet="StudentDemoes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="StudentDemo">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" Nullable="false" />
+    <Property Name="Age" Type="Int16" Nullable="false" />
+    <Property Name="City" Type="String" Nullable="false" />
+    <NavigationProperty Name="StudentLogin" Relationship="ModelStudentLogin.StudentLoginStudentDemo" FromRole="StudentDemo" ToRole="StudentLogin" />
+  </EntityType>
+  <EntityType Name="StudentLogin">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="String" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="Password" Type="String" Nullable="false" />
+    <NavigationProperty Name="StudentDemo" Relationship="ModelStudentLogin.StudentLoginStudentDemo" FromRole="StudentLogin" ToRole="StudentDemo" />
+  </EntityType>
+  <Association Name="StudentLoginStudentDemo">
+    <End Type="ModelStudentLogin.StudentLogin" Role="StudentLogin" Multiplicity="1" />
+    <End Type="ModelStudentLogin.StudentDemo" Role="StudentDemo" Multiplicity="1" />
+  </Association>
+</Schema>

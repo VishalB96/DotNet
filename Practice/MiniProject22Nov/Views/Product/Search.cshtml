@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Search";
+}
+
+<h2>Search</h2>
+ 
+@if (Session["UserName"] != null)
+{
+    
+       @Session["UserName"].ToString() ;
+
+    @TempData["k"];
+    @Html.ActionLink("Logout", "Logout", "Product");
+}
+
+
+@using (@Html.BeginForm())
+{
+
+    <lable>Name</lable>
+    @Html.TextBox("pname");
+    <input type="submit" />
+}

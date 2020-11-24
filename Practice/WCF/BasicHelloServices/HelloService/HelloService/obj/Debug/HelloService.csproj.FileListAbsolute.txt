@@ -1,0 +1,6 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloService\bin\Debug\HelloService.dll.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloService\bin\Debug\HelloService.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloService\bin\Debug\HelloService.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloService\obj\Debug\HelloService.csprojResolveAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloService\obj\Debug\HelloService.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloService\HelloService\obj\Debug\HelloService.pdb

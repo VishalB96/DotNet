@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="MyDbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Product_pro">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Price" Type="Single" Nullable="false" />
+    <Property Name="Image" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Product_number" Type="Int32" Nullable="false" />
+    <Property Name="Brand" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbluser">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="FullName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="Password" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="MyDbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Product_pro" EntityType="Self.Product_pro" />
+    <EntitySet Name="tblusers" EntityType="Self.tbluser" />
+  </EntityContainer>
+</Schema>

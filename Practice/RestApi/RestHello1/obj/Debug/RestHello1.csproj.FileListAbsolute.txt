@@ -1,0 +1,7 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestHello1\bin\RestHello1.dll.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestHello1\bin\RestHello1.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestHello1\bin\RestHello1.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestHello1\obj\Debug\RestHello1.csprojAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestHello1\obj\Debug\RestHello1.csproj.CoreCompileInputs.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestHello1\obj\Debug\RestHello1.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestHello1\obj\Debug\RestHello1.pdb

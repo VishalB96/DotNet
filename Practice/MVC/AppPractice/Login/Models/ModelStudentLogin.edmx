@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="ModelStudentLogin.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2012" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityContainer Name="ModelStudentLoginStoreContainer">
+    <EntitySet Name="StudentDemoes" EntityType="ModelStudentLogin.Store.StudentDemoes" store:Type="Tables" Schema="dbo" />
+    <EntitySet Name="StudentLogins" EntityType="ModelStudentLogin.Store.StudentLogins" store:Type="Tables" Schema="dbo" />
+    <AssociationSet Name="StudentLoginStudentDemo" Association="ModelStudentLogin.Store.StudentLoginStudentDemo">
+      <End Role="StudentLogin" EntitySet="StudentLogins" />
+      <End Role="StudentDemo" EntitySet="StudentDemoes" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="StudentDemoes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Age" Type="smallint" Nullable="false" />
+    <Property Name="City" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="StudentLogins">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="Username" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="Password" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="StudentDemo_Id" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="StudentLoginStudentDemo">
+    <End Role="StudentLogin" Type="ModelStudentLogin.Store.StudentLogins" Multiplicity="*" />
+    <End Role="StudentDemo" Type="ModelStudentLogin.Store.StudentDemoes" Multiplicity="1" />
+    <ReferentialConstraint>
+      <Principal Role="StudentDemo">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="StudentLogin">
+        <PropertyRef Name="StudentDemo_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="ModelStudentLogin" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+        <EntityContainer Name="ModelStudentLoginContainer" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="StudentDemoes" EntityType="ModelStudentLogin.StudentDemo" />
+          <EntitySet Name="StudentLogins" EntityType="ModelStudentLogin.StudentLogin" />
+          <AssociationSet Name="StudentLoginStudentDemo" Association="ModelStudentLogin.StudentLoginStudentDemo">
+            <End Role="StudentLogin" EntitySet="StudentLogins" />
+            <End Role="StudentDemo" EntitySet="StudentDemoes" />
+          </AssociationSet>
+          </EntityContainer>
+        <EntityType Name="StudentDemo">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Name" Type="String" Nullable="false" />
+          <Property Name="Age" Type="Int16" Nullable="false" />
+          <Property Name="City" Type="String" Nullable="false" />
+          <NavigationProperty Name="StudentLogin" Relationship="ModelStudentLogin.StudentLoginStudentDemo" FromRole="StudentDemo" ToRole="StudentLogin" />
+        </EntityType>
+        <EntityType Name="StudentLogin">
+          <Key>
+            <PropertyRef Name="Username" />
+          </Key>
+          <Property Name="Username" Type="String" Nullable="false" annotation:StoreGeneratedPattern="None" />
+          <Property Name="Password" Type="String" Nullable="false" />
+          <NavigationProperty Name="StudentDemo" Relationship="ModelStudentLogin.StudentLoginStudentDemo" FromRole="StudentLogin" ToRole="StudentDemo" />
+        </EntityType>
+        <Association Name="StudentLoginStudentDemo">
+          <End Type="ModelStudentLogin.StudentLogin" Role="StudentLogin" Multiplicity="1" />
+          <End Type="ModelStudentLogin.StudentDemo" Role="StudentDemo" Multiplicity="1" />
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+    <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ModelStudentLoginStoreContainer" CdmEntityContainer="ModelStudentLoginContainer">
+    <EntitySetMapping Name="StudentDemoes">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelStudentLogin.StudentDemo)">
+        <MappingFragment StoreEntitySet="StudentDemoes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="City" ColumnName="City" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="StudentLogins">
+      <EntityTypeMapping TypeName="IsTypeOf(ModelStudentLogin.StudentLogin)">
+        <MappingFragment StoreEntitySet="StudentLogins">
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="StudentLoginStudentDemo" TypeName="ModelStudentLogin.StudentLoginStudentDemo" StoreEntitySet="StudentLogins">
+      <EndProperty Name="StudentDemo">
+        <ScalarProperty Name="Id" ColumnName="StudentDemo_Id" />
+      </EndProperty>
+      <EndProperty Name="StudentLogin">
+        <ScalarProperty Name="Username" ColumnName="Username" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping></edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <edmx:Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </edmx:Connection>
+    <edmx:Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="True" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+        <DesignerProperty Name="UseLegacyProvider" Value="False" />
+      </DesignerInfoPropertySet>
+    </edmx:Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

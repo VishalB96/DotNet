@@ -1,0 +1,1 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\WCF\BasicHelloServices\HelloServiceClient\HelloServiceClient\obj\Debug\HelloServiceClient.csprojResolveAssemblyReference.cache
