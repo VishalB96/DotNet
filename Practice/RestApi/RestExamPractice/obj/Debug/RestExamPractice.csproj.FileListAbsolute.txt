@@ -1,0 +1,12 @@
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\bin\RestExamPractice.dll.config
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\bin\RestExamPractice.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\bin\RestExamPractice.pdb
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\bin\EntityFramework.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\bin\EntityFramework.SqlServer.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\bin\EntityFramework.xml
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\bin\EntityFramework.SqlServer.xml
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\obj\Debug\RestExamPractice.csprojAssemblyReference.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\obj\Debug\RestExamPractice.csproj.CoreCompileInputs.cache
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\obj\Debug\RestExamPractice.csproj.CopyComplete
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\obj\Debug\RestExamPractice.dll
+E:\VITA CDAC OOP\ASP_DotNet\GitRepo\DotNet\Practice\RestApi\RestExamPractice\obj\Debug\RestExamPractice.pdb

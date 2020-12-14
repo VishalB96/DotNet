@@ -43,6 +43,7 @@ namespace BankAccountLib
         {
             protected set { _balance = value; }
             get { return _balance; }
+            
         }
         /*readonly property ID*/
         public int ID
@@ -97,10 +98,12 @@ namespace BankAccountLib
 
     public class Savings : Accounts {
         private const string AccType = "Savings account";
+        const double minbal = 1000;
 
         public Savings(string name, double amt):base(name,amt)
         {
-            
+            if (amt <= minbal)
+                throw new MinBalNotMet();
         }
 
         public override void display()
